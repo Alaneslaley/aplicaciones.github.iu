@@ -1,0 +1,228 @@
+header{
+    background-image: url(imagenes/header_prueba.png);
+    width: 960 px;
+    height: 150px;
+    color: white;
+    background-size: cover;
+}
+#cabecera{
+    padding-top: 10px;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+nav{
+    width: 960 px;
+    margin-top: 2px;
+    padding-top: 15px;
+    height: 35px;
+    background: linear-gradient(45deg, black, #226e22)
+}
+nav.div{
+    height: 35px;
+    margin: 0%;
+    height: 30px;
+}
+li{
+    display: inline;
+    margin-right: 30px;
+    margin-left: 8px;
+    border-right: 2px solid white;
+    padding-right: 15px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font: Arial, bold;
+    font-size: 17px;    
+}
+#metas_men{
+    display: none;
+    position: absolute; 
+    top: 178px; 
+    left: 140px; 
+    list-style: none; 
+    z-index: 1000; 
+    background-color: black;
+}
+#menu li:hover ul { 
+    display: block; 
+   } 
+.li_esp{
+    display: block;
+    border-right: 0;
+    border-top: 1px solid white;
+}
+main{
+    background-image: url(imagenes/fondo.jpg);
+    background-attachment: fixed;
+    display: inline-block;
+}
+footer{
+    background-image: url(imagenes/foot.jpg);
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+#fondo{
+    background-color: rgb(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+
+}
+#imagmia{
+    width: 259px;
+    margin-top: 20px;
+}
+#biblio{
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    margin-left: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bold;
+    padding: 20px;
+    float: left;
+}
+aside{
+    float: right;
+    width: 22%;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-align: center;
+
+}
+aside>li{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    display: block;
+    text-align: left;
+}
+
+.imag_1{
+    width: 250px;
+}
+#musfo{
+    height: 20px;
+    margin-left: 5px;
+}
+#musicafondo{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista1{
+   width: 150px;
+   background-color: rgb(0, 0, 0);
+}
+#baja{
+    width: 96%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.8); 
+    text-align: center;
+}
+#tablamas{
+    text-align: center;
+    padding: 5px;
+    margin: 0% auto;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+td{
+    border: 2px solid black;
+}
+#habilidades{
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 70%;
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.imata{
+    width: 300px;
+}
+#bobes{
+    padding: 5% 5px;
+    width: 25%;
+    height: 900px;
+    float: right;
+    background-image: url(imagenes/bob.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+#habilidades li{
+    display: block;
+}
+#asidemetas{
+    padding: 1% 5px;
+    width: 25%;
+    height: 620px;
+    float: right;
+    background-image: url(imagenes/asid.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+}
+#series{
+display: block;
+background-color: rgb(0, 0, 0, 0.8);
+color: #ffffff;
+}
+table{
+    margin: auto;
+}
+.videos{
+    width: 70%;
+}
+.preg{
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+#con{
+    width: 960px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+#lista li{
+    display: block;
+}
+#main4{
+    margin: 10px auto;
+}
